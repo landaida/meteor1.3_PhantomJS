@@ -14,7 +14,7 @@ phantomCreate = () =>{
   })
   .then(status => {
       console.log(status);
-      return sitepage.property('content');
+      return sitepage.property('hlogo');
   })
   .then(content => {
       console.log(content);
